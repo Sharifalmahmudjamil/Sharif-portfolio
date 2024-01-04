@@ -6,7 +6,9 @@ import Image from 'next/image'
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 
 
+
 const Hero = () => {
+  const resumeUrl = "../public/Resume/Sharif Al Mahmud.pdf"
   return (
     <div className='h-[110vh] bg-[url("/images/banner.jpg")] bg-cover bg-center'> 
       <Particle></Particle>
@@ -19,7 +21,7 @@ const Hero = () => {
             <p className='mt-[2rem] text-[20px] text-[#ffffff92]'>A Fresher Developer's Journey Through Code and Creativity.</p>
             <div className='mt-[2rem] flex-col space-y-6 md:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
                 <button className='px-[2rem] hover:bg-cyan-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-teal-300 text-black flex  items-center space-x-2 rounded-full'>
-                    <p>Download Resume</p>
+                    <a href={resumeUrl} download='Sharif Al Mahmud.pdf' >Download Resume</a>
                     <ArrowDownTrayIcon className='w-[1.6rem] h-[1.7rem] text-black'/>
                 </button>
             </div>
