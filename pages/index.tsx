@@ -1,8 +1,11 @@
 import About from '@/Components/About';
+import Education from '@/Components/Education';
 import Hero from '@/Components/Hero';
 import MobileNav from '@/Components/MobileNav';
 import Nav from '@/Components/Nav';
+import Skills from '@/Components/MySkills';
 import React, { useState } from 'react'
+import MySkills from '@/Components/MySkills';
 
 const Homepage = () => {
 
@@ -19,7 +22,10 @@ const Homepage = () => {
         {/* about section */}
         <div className='relative z-[30]'>
           <About></About>
-
+          {/* Education */}
+          <Education></Education>
+          {/* skill section */}
+          <MySkills></MySkills>
         </div>
     </div>
   </div> 
