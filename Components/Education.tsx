@@ -3,7 +3,7 @@ import React from 'react'
 const Education = () => {
   return (
     <div>
-       <div  className="bg-slate-950 ">
+       <div id='education' className="bg-slate-950 ">
             <h1 className="text-5xl font-medium text-center text-teal-300 ">Education</h1>
             <span className='w-[280px] hidden md:block h-[5px] bg-teal-500 rounded-sm mb-4 mx-[39%] mt-3'></span>
 

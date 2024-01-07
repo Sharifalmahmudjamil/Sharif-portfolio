@@ -5,7 +5,7 @@ import myPic from '../public/images/jamil.jpeg'
 
 const About = () => {
   return (
-    <div className='bg-slate-950 pb-[3rem] pt-[4rem] md:pt-[8rem]'>
+    <div  id='about' className='bg-slate-950 pb-[3rem] pt-[4rem] md:pt-[8rem]'>
         <div className='grid grid-cols-1 md:grid-cols-2 w-[80%] mx-auto gap-[3rem] items-center'>
             <div>
                 <h1 className='text-2xl font-bold uppercase text-teal-400 mb-[1rem]'>About Me</h1>

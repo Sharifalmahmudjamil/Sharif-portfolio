@@ -7,7 +7,7 @@ const TextEffect = () => {
         // Same substring at the start will only be typed out once, initially
         'Junior Frontend Developer',
         1500, // wait 1s before replacing "Mice" with "Hamsters"
-        ' Specialization in the MERN (MongoDB, Express.js, React, Node.js) stack',
+        ' Specialization in the MERN Stack',
         1500,
         'Programmer',
         1500,

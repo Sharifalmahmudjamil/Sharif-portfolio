@@ -6,6 +6,8 @@ import Nav from '@/Components/Nav';
 import Skills from '@/Components/MySkills';
 import React, { useState } from 'react'
 import MySkills from '@/Components/MySkills';
+import Project from '@/Components/Project';
+
 
 const Homepage = () => {
 
@@ -13,7 +15,7 @@ const Homepage = () => {
     const openNav =()=> setNav(true);
     const closedNav=()=> setNav(false);
   return <div className='overflow-x-hidden'>
-    <div>
+    <div id='home'>
         {/* Navbar */}
         <MobileNav nav={nav} closedNav={closedNav}></MobileNav>
         <Nav openNav={openNav}></Nav>
@@ -26,6 +28,8 @@ const Homepage = () => {
           <Education></Education>
           {/* skill section */}
           <MySkills></MySkills>
+          {/* project */}
+          <Project></Project>
         </div>
     </div>
   </div> 
