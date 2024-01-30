@@ -3,10 +3,11 @@ import Education from '@/Components/Education';
 import Hero from '@/Components/Hero';
 import MobileNav from '@/Components/MobileNav';
 import Nav from '@/Components/Nav';
-import Skills from '@/Components/MySkills';
 import React, { useState } from 'react'
 import MySkills from '@/Components/MySkills';
 import Project from '@/Components/Project';
+import Contact from '@/Components/Contact';
+import Footer from '@/Components/Footer';
 
 
 const Homepage = () => {
@@ -30,6 +31,10 @@ const Homepage = () => {
           <MySkills></MySkills>
           {/* project */}
           <Project></Project>
+          {/* contact */}
+          <Contact></Contact>
+          {/* footer */}
+          <Footer></Footer>
         </div>
     </div>
   </div> 

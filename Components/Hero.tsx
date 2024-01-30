@@ -5,6 +5,7 @@ import TextEffect from './TextEffect'
 import Image from 'next/image'
 import { ArrowDownTrayIcon } from '@heroicons/react/20/solid'
 import Link from 'next/link'
+import images from "../public/images/sharif.jpg"
 
 
 
@@ -28,7 +29,7 @@ const Hero = () => {
             </div>
         </div>
         <div className='w-[500px]  hidden  relative lg:flex items-center rounded-full h-[500px]'>
-           <Image src="/images/sharif.jpg" alt='user' layout='fill' className='object-cover rounded-full'></Image>
+           <Image src={images} alt='user' layout='fill' className='object-cover rounded-full'></Image>
         </div>
        
       </div>

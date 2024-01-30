@@ -5,8 +5,8 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body className='font-poppins'>
-        <Main />
-        <NextScript />
+        <Main/>
+        <NextScript/>
       </body>
     </Html>
   )
